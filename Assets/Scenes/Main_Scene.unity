@@ -296,7 +296,7 @@ GameObject:
   m_Component:
   - component: {fileID: 91473709}
   m_Layer: 0
-  m_Name: Orb_Pos2
+  m_Name: Orb3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5583,7 +5583,7 @@ Transform:
   m_GameObject: {fileID: 287906005}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -11.44781, y: 0.52095, z: 0.49}
+  m_LocalPosition: {x: -11.4, y: 1.29, z: 0.49}
   m_LocalScale: {x: 0.11612, y: 0.11612, z: 0.11612}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5604,7 +5604,7 @@ GameObject:
   m_Component:
   - component: {fileID: 394510730}
   m_Layer: 0
-  m_Name: Orb_Pos
+  m_Name: Orb1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6027,12 +6027,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 468908988}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.24404, y: -0.19934, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.81185, y: -0.22839001, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 2098735194}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &468908990
 MonoBehaviour:
@@ -6255,12 +6255,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 714029032}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.24404, y: -0.19934, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.81185, y: -0.22839001, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 2098735194}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &925704366
 GameObject:
@@ -8036,7 +8036,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1584081795}
   m_Layer: 0
-  m_Name: Orb_Pos1
+  m_Name: Orb2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9320,6 +9320,8 @@ Transform:
   - {fileID: 287906008}
   - {fileID: 1667766057}
   - {fileID: 149313365}
+  - {fileID: 714029034}
+  - {fileID: 468908989}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &4429030332158406890
@@ -9396,5 +9398,3 @@ SceneRoots:
   - {fileID: 1716522074}
   - {fileID: 1958226304}
   - {fileID: 2034289055}
-  - {fileID: 714029034}
-  - {fileID: 468908989}
